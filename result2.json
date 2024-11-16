@@ -1,0 +1,106 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.fsk.Main3.pythagorasTriples1",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/fsk/Library/Java/JavaVirtualMachines/corretto-17.0.9/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Users/fsk/Applications/IntelliJ IDEA Ultimate.app/Contents/lib/idea_rt.jar=58608:/Users/fsk/Applications/IntelliJ IDEA Ultimate.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.9+8-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 256.9439631559829,
+            "scoreError" : 30.380596664241903,
+            "scoreConfidence" : [
+                226.563366491741,
+                287.3245598202248
+            ],
+            "scorePercentiles" : {
+                "0.0" : 255.02701875,
+                "50.0" : 257.77169123076925,
+                "90.0" : 258.0331794871795,
+                "95.0" : 258.0331794871795,
+                "99.0" : 258.0331794871795,
+                "99.9" : 258.0331794871795,
+                "99.99" : 258.0331794871795,
+                "99.999" : 258.0331794871795,
+                "99.9999" : 258.0331794871795,
+                "100.0" : 258.0331794871795
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    258.0331794871795,
+                    257.77169123076925,
+                    255.02701875
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.fsk.Main3.pythagorasTriples2",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/fsk/Library/Java/JavaVirtualMachines/corretto-17.0.9/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/Users/fsk/Applications/IntelliJ IDEA Ultimate.app/Contents/lib/idea_rt.jar=58608:/Users/fsk/Applications/IntelliJ IDEA Ultimate.app/Contents/bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.9+8-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.24252069409589336,
+            "scoreError" : 0.018007404098752667,
+            "scoreConfidence" : [
+                0.22451328999714068,
+                0.260528098194646
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.24141835171198997,
+                "50.0" : 0.24282108270001215,
+                "90.0" : 0.24332264787567792,
+                "95.0" : 0.24332264787567792,
+                "99.0" : 0.24332264787567792,
+                "99.9" : 0.24332264787567792,
+                "99.99" : 0.24332264787567792,
+                "99.999" : 0.24332264787567792,
+                "99.9999" : 0.24332264787567792,
+                "100.0" : 0.24332264787567792
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.24141835171198997,
+                    0.24332264787567792,
+                    0.24282108270001215
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
